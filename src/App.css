@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.choies{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: solid #80808094 0.5px;
+  padding-bottom: 0;
+}
+.choies .btn{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  width: 30%;
+}
+.active{
+  border-bottom: solid blue;
+}
+.addContainer{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.addContainer input{
+  width: 70%;
+}
+.addContainer .btn{
+  width: 15%;
+}
+.tasks{
+  padding-left: 40px;
+}
+.task{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.task span{
+  padding-left: 25px;
+}
+.completed{
+  text-decoration: line-through;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task input{
+  cursor: pointer;
+}
