@@ -1,10 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 import {RiDeleteBin6Line} from 'react-icons/ri'
-
 
 function App() {
   const task = useRef(null);
